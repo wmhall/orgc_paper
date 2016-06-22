@@ -362,7 +362,7 @@ indirect_effects %>% filter(mid == "model3") %>%
 
 * Model 2 doesn't fit the data well but models 1 and two aren't too horrible.
 
-```{r}
+```{r, echo = FALSE}
 fit_measures %>% knitr::kable()
 ```
 
