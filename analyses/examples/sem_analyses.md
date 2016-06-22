@@ -119,10 +119,6 @@ Model fits
     -   RMSEA &lt; .05
 -   Model 2 doesn't fit the data well but models 1 and two aren't too horrible.
 
-``` r
-fit_measures %>% knitr::kable()
-```
-
 | mid    |        cfi|     chisq|  pvalue|      rmsea|
 |:-------|----------:|---------:|-------:|----------:|
 | model1 |  0.9073205|  436.3320|       0|  0.0857923|
